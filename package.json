@@ -9,7 +9,7 @@
     "backend": "cd BackEnd && npm start",
     "frontend": "cd Frontend && npm run dev -- --host"
   },
-  "devDependencies": {
+  "dependencies": {
     "concurrently": "^8.0.0"
   }
 }
