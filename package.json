@@ -2,12 +2,12 @@
   "name": "fullstack-project",
   "version": "1.0.0",
   "scripts": {
-    "install:all": "npm run install:BackEnd && npm run install:Frontend",
+    "install:all": "npm run install:backend && npm run install:frontend",
     "install:backend": "cd BackEnd && npm install",
     "install:frontend": "cd Frontend && npm install",
-    "start": "concurrently \"npm run start:BackEnd\" \"npm run start:Frontend\"",
-    "start:backend": "cd BackEnd && npm start",
-    "start:frontend": "cd Frontend && npm run dev -- --host"
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd BackEnd && npm start",
+    "frontend": "cd Frontend && npm run dev -- --host"
   },
   "devDependencies": {
     "concurrently": "^8.0.0"
