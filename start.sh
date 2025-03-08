@@ -9,8 +9,8 @@ NC='\033[0m' # No Color
 echo -e "${GREEN}🚀 Starting Frontend & Backend Servers...${NC}"
 
 # 📌 Define backend and frontend paths (Update as needed)
-BACKEND_DIR="./backend"
-FRONTEND_DIR="./frontend"
+BACKEND_DIR="./BackEnd"
+FRONTEND_DIR="./Frontend"
 
 # 🛑 Kill previous processes (optional)
 echo -e "${YELLOW}🔄 Stopping old running instances...${NC}"
