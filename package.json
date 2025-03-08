@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm run BackEnd\" \"npm run Frontend\"",
-    "backend": "cd backend && npm start",
-    "frontend": "cd frontend && npm run dev -- --host"
+    "backend": "cd BackEnd && npm start",
+    "frontend": "cd Frontend && npm run dev -- --host"
   },
   "devDependencies": {
     "concurrently": "^8.0.0"
