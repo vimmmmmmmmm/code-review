@@ -2,7 +2,8 @@
   "name": "fullstack-project",
   "version": "1.0.0",
   "scripts": {
-    "start": "concurrently \"npm run BackEnd\" \"npm run Frontend\"",
+    "install": "concurrently \"npm install --prefix BackEnd\" \"npm install --prefix Frontend\"",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
     "backend": "cd BackEnd && npm start",
     "frontend": "cd Frontend && npm run dev -- --host"
   },
